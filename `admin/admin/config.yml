@@ -1,0 +1,14 @@
+backend:
+       name: github
+       repo: seu-usuario-github/ia361-store
+     media_folder: "static/img"
+     collections:
+       - name: "produtos"
+         label: "Projetos de IA"
+         folder: "produtos"
+         create: true
+         fields:
+           - { name: "titulo", label: "Título", widget: "string" }
+           - { name: "preco", label: "Preço", widget: "number" }
+           - { name: "descricao", label: "Descrição", widget: "text" }
+           - { name: "imagem", label: "Imagem", widget: "image" }
